@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Btree	binary_tree.cpp	/^Btree<T>::Btree() : root(nullptr) {}$/;"	f	class:Btree
+Btree	binary_tree.cpp	/^Btree<T>::Btree(Btree && to_move) : root(to_move.root){$/;"	f	class:Btree
+Btree	binary_tree.cpp	/^Btree<T>::Btree(const Btree & to_copy) : root(copy_helper(to_copy.root)){}$/;"	f	class:Btree
+Btree	binary_tree.cpp	/^class Btree{$/;"	c	file:
+Node	binary_tree.cpp	/^	Node() : key(0), $/;"	f	struct:Btree::Node
+Node	binary_tree.cpp	/^	Node(int value) : key(value), $/;"	f	struct:Btree::Node
+Node	binary_tree.cpp	/^struct Node{$/;"	s	class:Btree	file:
+copy	loading.sh	/^copy(){$/;"	f
+copy_helper	binary_tree.cpp	/^typename Btree<T>::Node* Btree<T>::copy_helper(const Node* to_copy)$/;"	f	class:Btree
+delete_item	binary_tree.cpp	/^typename Btree<T>::Node* Btree<T>::delete_item(Node* root, T key)$/;"	f	class:Btree
+delete_item	binary_tree.cpp	/^typename Btree<T>::Node* Btree<T>::delete_item(T key)$/;"	f	class:Btree
+destroy_tree	binary_tree.cpp	/^void Btree<T>::destroy_tree()$/;"	f	class:Btree
+destroy_tree	binary_tree.cpp	/^void Btree<T>::destroy_tree(Node *leaf)$/;"	f	class:Btree
+inorder_print	binary_tree.cpp	/^void Btree<T>::inorder_print()$/;"	f	class:Btree
+inorder_print	binary_tree.cpp	/^void Btree<T>::inorder_print(Node *leaf)$/;"	f	class:Btree
+insert	binary_tree.cpp	/^void Btree<T>::insert(T key)$/;"	f	class:Btree
+insert	binary_tree.cpp	/^void Btree<T>::insert(T key, Node *&leaf)$/;"	f	class:Btree
+key	binary_tree.cpp	/^	int key;$/;"	m	struct:Btree::Node	file:
+left	binary_tree.cpp	/^	Node* left;$/;"	m	struct:Btree::Node	file:
+main	binary_tree.cpp	/^int main()$/;"	f
+min_value_node	binary_tree.cpp	/^typename Btree<T>::Node * Btree<T>::min_value_node(Node* node)$/;"	f	class:Btree
+n_search	binary_tree.cpp	/^typename Btree<T>::Node *Btree<T>::n_search(T key)$/;"	f	class:Btree
+n_search	binary_tree.cpp	/^typename Btree<T>::Node *Btree<T>::n_search(T key, Node *leaf){$/;"	f	class:Btree
+operator =	binary_tree.cpp	/^Btree<T> & Btree<T>::operator=(Btree && to_assign)$/;"	f	class:Btree
+operator =	binary_tree.cpp	/^Btree<T> & Btree<T>::operator=(const Btree & to_assign)$/;"	f	class:Btree
+postorder_print	binary_tree.cpp	/^void Btree<T>::postorder_print()$/;"	f	class:Btree
+postorder_print	binary_tree.cpp	/^void Btree<T>::postorder_print(Node *leaf)$/;"	f	class:Btree
+preorder_print	binary_tree.cpp	/^void Btree<T>::preorder_print()$/;"	f	class:Btree
+preorder_print	binary_tree.cpp	/^void Btree<T>::preorder_print(Node *leaf)$/;"	f	class:Btree
+right	binary_tree.cpp	/^	Node* right;$/;"	m	struct:Btree::Node	file:
+root	binary_tree.cpp	/^	Node* root;$/;"	m	class:Btree	file:
+search	binary_tree.cpp	/^void Btree<T>::search(T key)$/;"	f	class:Btree
+spin	loading.sh	/^spin(){$/;"	f
+~Btree	binary_tree.cpp	/^Btree<T>::~Btree() {$/;"	f	class:Btree
